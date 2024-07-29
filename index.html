@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Online Privacy and Security</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Online Privacy and Security</h1>
+    </header>
+    <main>
+        <section id="data-privacy">
+            <h2>Data Privacy</h2>
+            <textarea id="data-text" placeholder="Enter text to analyze..."></textarea>
+            <button onclick="analyzeText()">Analyze Text</button>
+            <pre id="data-result"></pre>
+        </section>
+
+        <section id="phishing-detection">
+            <h2>Phishing Detection</h2>
+            <textarea id="email-content" placeholder="Enter email content to check..."></textarea>
+            <button onclick="detectPhishing()">Detect Phishing</button>
+            <pre id="phishing-result"></pre>
+        </section>
+
+        <section id="malware-scan">
+            <h2>Malware and Viruses</h2>
+            <input type="file" id="file-input">
+            <button onclick="scanFile()">Scan File</button>
+            <pre id="malware-result"></pre>
+        </section>
+
+        <section id="password-generator">
+            <h2>Weak Passwords</h2>
+            <button onclick="generatePassword()">Generate Strong Password</button>
+            <pre id="password-result"></pre>
+        </section>
+
+        <section id="ad-tracking">
+            <h2>Ad Tracking</h2>
+            <input type="text" id="tracking-url" placeholder="Enter URL to block tracking...">
+            <button onclick="blockTracking()">Block Tracking</button>
+            <pre id="tracking-result"></pre>
+        </section>
+    </main>
+    <script src="scripts.js"></script>
+</body>
+</html>
+
